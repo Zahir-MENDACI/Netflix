@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  content:
+    container_name: content
+    build: ./Content
+    ports:
+      - 7070:7070
+  front:
+    container_name: front
+    build: ./Front
+    ports:
+      - 3000:3000
+  users:
+    container_name: users
+    build: ./Users
+    ports:
+      - 6060:6060
+  posters:
+    container_name: posters
+    build: ./Posters
+    ports:
+      - 8080:8080

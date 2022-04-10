@@ -1,0 +1,15 @@
+version: "3"
+services:
+  posters:
+    container_name: posters
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    networks:
+      - posters
+networks:
+  posters:
+    external:
+      name: netflix-network
