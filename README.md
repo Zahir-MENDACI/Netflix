@@ -1,4 +1,5 @@
 # Netflix
+Réalisation d'un projet Netflix à base de microservices (3 microservices backend + 1 microservice front)
 
 # Install, Configure & Run
 
