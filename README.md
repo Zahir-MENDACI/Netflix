@@ -6,6 +6,9 @@ Réalisation d'un projet Netflix à base de microservices (3 microservices backe
 ```bash
 docker-compose up
 ```
+Compte par defaut pour l'authentification
+- email: ynov@test.fr
+- password: 123456
 
 # Slides
 https://docs.google.com/presentation/d/1IMS6t-hNgOcLDgz3DKvQgVlubEo495dL2JyT0ripkwY/edit#slide=id.gc6f919934_0_0
